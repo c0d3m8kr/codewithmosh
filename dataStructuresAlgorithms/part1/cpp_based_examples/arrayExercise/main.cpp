@@ -18,7 +18,10 @@ int main()
     myArray.removeAt(1);
     myArray.removeAt(2);
     cout << "Index of 200 is: " << myArray.indexOf(200) << endl;
-
+    myArray.insert(1000);
+    myArray.insert(8888);
+    myArray.removeAt(0);
+    
     myArray.print();
     
     myArray.free();

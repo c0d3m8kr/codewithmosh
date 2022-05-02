@@ -90,7 +90,7 @@ void Array::removeAt(int index)
             {
                 items[i] = tempIndex[i];
             }
-            position--;
+            position = length - 1;
         }
     }
 }
