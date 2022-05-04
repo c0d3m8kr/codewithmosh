@@ -23,6 +23,8 @@ int main()
     //myArray.removeAt(0);
 
     myArray.print();
+    cout << "The maximum element value is: " << myArray.max() << endl;
+    myArray.reverse();
 
     myArray.free();
     myArray.~Array();

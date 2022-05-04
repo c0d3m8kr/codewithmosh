@@ -118,3 +118,36 @@ int Array::indexOf(int search)
     }
     return -1;
 }
+
+int Array::max() const
+{
+    int max = 0;
+    for (int i = 0; i < length; i++)
+    {
+        if (items[i] > max)
+            max = items[i];
+    }
+    return max;
+}
+
+void Array::reverse() const
+{
+    cout << "[ ";
+    for (int i = length-1; i >= 0; i--)
+    {
+        if (i > 0)
+            cout << items[i] << ", ";
+        else
+            cout << items[i];
+    }
+    cout << "]" << endl;
+}
+
+void Array::insertAt(int item,int index)
+{
+    // create temp array with length + 1 elements
+    // copy current items array from 0 to index
+    // insert new item into index
+    // copy current items array from index to length
+    //
+}

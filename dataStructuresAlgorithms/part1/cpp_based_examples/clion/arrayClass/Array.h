@@ -19,9 +19,9 @@ public:
     void removeAt(int index);
     void print() const;
     int indexOf(int search);
-    //void insert();
-    //void removeAt(int index);
-    //int indexOf(int item) const;
+    int max() const;
+    void reverse() const;
+    void insertAt(int item,int index);
 private:
     int length;         // length of array
     int* items;         // pointer to instantiated array at runtime
