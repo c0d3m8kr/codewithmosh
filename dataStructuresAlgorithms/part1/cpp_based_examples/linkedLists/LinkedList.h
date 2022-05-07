@@ -19,6 +19,8 @@ class LinkedList {
         int indexOf(int value);
         void printAll();
         void releaseMem();
+        void reverse();
+        void rev();
 
     private:
         Node* first = NULL;

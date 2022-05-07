@@ -107,3 +107,47 @@ void LinkedList::deleteMem(Node *n) {
     else
         deleteMem(n->next);
 }
+
+void LinkedList::reverse(){
+    // list.reverse();
+    // var array = list.toArray();
+    // System.out.println(Arrays.toString(array);
+    if (first == NULL && last == NULL){
+        cout << "List is empty!" << endl;
+        return;
+    }
+    Node* tempFirst = first;
+    Node* previousNode = first;
+    Node* currentNode = first->next;
+    Node* nextNode = NULL;
+    while (currentNode != NULL){
+        nextNode = currentNode->next;
+        currentNode->next = previousNode;
+        previousNode = currentNode;
+        currentNode = nextNode;
+    }
+
+    last = first;
+    last->next = NULL;
+    first = previousNode;
+}
+
+void LinkedList::rev(){
+    Node* nextPtr = NULL;
+    Node* currentPtr = first->next;
+    Node* prevPtr = first;
+
+    while (currentPtr != NULL){
+        nextPtr = currentPtr->next;
+        currentPtr->next = prevPtr;
+        prevPtr = currentPtr;
+        currentPtr = nextPtr;
+    }
+    last = first;
+    last->next = NULL;
+    first = prevPtr;
+}
+
+
+
+
