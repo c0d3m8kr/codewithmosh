@@ -148,6 +148,39 @@ void LinkedList::rev(){
     first = prevPtr;
 }
 
+int LinkedList::getKthFromTheEnd(int k) {
+    // TODO: add check for negative
+    // TODO: add check for empty list
+    // TODO: add check for out of bounds
+    Node* seeker = first;
+    Node* following = NULL;
 
+    int delay = k - 1;
+    int iteration = 0;
 
+    while (seeker != NULL){
+        if (iteration == delay)
+            following = first;
 
+        iteration++;
+        seeker = seeker->next;
+        if (seeker != NULL && following != NULL)
+            following = following->next;
+    }
+
+    return following->value;
+}
+
+int LinkedList::getKthFromTheEnd2(int k){
+    Node* seeker = first;
+    Node* follower = first;
+
+    for (int i = 0; i < (k - 1); i++){
+        seeker = seeker->next;
+    }
+    while (seeker != last){
+        follower = follower->next;
+        seeker = seeker->next;
+    }
+    return follower->value;
+}

@@ -1,0 +1,23 @@
+# ninja log v5
+0	1392	1652105546042103709	CMakeFiles/exercise_balancedExpression.dir/main.cpp.o	76ae5d34c73728cc
+1396	1497	1652105546151944509	exercise_balancedExpression	4e6b7d7f1efab5e6
+10	1009	1652105604849893805	CMakeFiles/exercise_balancedExpression.dir/main.cpp.o	76ae5d34c73728cc
+1010	1103	1652105604950858369	exercise_balancedExpression	4e6b7d7f1efab5e6
+5	2726	1652153635778432415	CMakeFiles/exercise_balancedExpression.dir/main.cpp.o	76ae5d34c73728cc
+2726	2960	1652153636032635981	exercise_balancedExpression	4e6b7d7f1efab5e6
+6	1579	1652153646006435841	CMakeFiles/exercise_balancedExpression.dir/main.cpp.o	76ae5d34c73728cc
+1579	1723	1652153646158912487	exercise_balancedExpression	4e6b7d7f1efab5e6
+6	1155	1652153659411303366	CMakeFiles/exercise_balancedExpression.dir/main.cpp.o	76ae5d34c73728cc
+1155	1235	1652153659495627987	exercise_balancedExpression	4e6b7d7f1efab5e6
+9	1407	1652153671691895680	CMakeFiles/exercise_balancedExpression.dir/main.cpp.o	76ae5d34c73728cc
+1408	1526	1652153671812528183	exercise_balancedExpression	4e6b7d7f1efab5e6
+8	1065	1652154011872462226	CMakeFiles/exercise_balancedExpression.dir/main.cpp.o	76ae5d34c73728cc
+1065	1187	1652154011997606572	exercise_balancedExpression	4e6b7d7f1efab5e6
+4	1006	1652154049399386415	CMakeFiles/exercise_balancedExpression.dir/main.cpp.o	76ae5d34c73728cc
+1007	1086	1652154049482672359	exercise_balancedExpression	4e6b7d7f1efab5e6
+8	1280	1652154258425643096	CMakeFiles/exercise_balancedExpression.dir/main.cpp.o	76ae5d34c73728cc
+1280	1367	1652154258517338698	exercise_balancedExpression	4e6b7d7f1efab5e6
+9	1455	1652154271010075441	CMakeFiles/exercise_balancedExpression.dir/main.cpp.o	76ae5d34c73728cc
+1456	1552	1652154271112256428	exercise_balancedExpression	4e6b7d7f1efab5e6
+7	1093	1652154283723206435	CMakeFiles/exercise_balancedExpression.dir/main.cpp.o	76ae5d34c73728cc
+1093	1178	1652154283814112586	exercise_balancedExpression	4e6b7d7f1efab5e6

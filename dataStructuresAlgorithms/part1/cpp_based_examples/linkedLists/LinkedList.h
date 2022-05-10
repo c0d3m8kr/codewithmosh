@@ -21,6 +21,8 @@ class LinkedList {
         void releaseMem();
         void reverse();
         void rev();
+        int getKthFromTheEnd(int k);
+        int getKthFromTheEnd2(int k);
 
     private:
         Node* first = NULL;
