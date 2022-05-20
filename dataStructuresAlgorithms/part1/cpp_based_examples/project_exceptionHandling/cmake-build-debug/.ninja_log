@@ -1,0 +1,14 @@
+# ninja log v5
+0	1031	1652234827854851352	CMakeFiles/project_exceptionHandling.dir/main.cpp.o	e20771f5255c848
+1	1072	1652234827899438154	CMakeFiles/project_exceptionHandling.dir/Printer.cpp.o	29c8261edff1da67
+1072	1219	1652234828052714524	project_exceptionHandling	9bc9ab958b56b101
+7	1811	1652235141037136654	CMakeFiles/project_exceptionHandling.dir/main.cpp.o	e20771f5255c848
+9	1845	1652235141072204154	CMakeFiles/project_exceptionHandling.dir/Printer.cpp.o	29c8261edff1da67
+1846	1969	1652235141202540614	project_exceptionHandling	9bc9ab958b56b101
+5	1240	1652235272217351112	CMakeFiles/project_exceptionHandling.dir/main.cpp.o	e20771f5255c848
+1240	1352	1652235272330769554	project_exceptionHandling	9bc9ab958b56b101
+7	1143	1652235301707840984	CMakeFiles/project_exceptionHandling.dir/main.cpp.o	e20771f5255c848
+1143	1340	1652235301903276795	project_exceptionHandling	9bc9ab958b56b101
+12	1274	1652235678552566304	CMakeFiles/project_exceptionHandling.dir/Printer.cpp.o	29c8261edff1da67
+11	1275	1652235678551428476	CMakeFiles/project_exceptionHandling.dir/main.cpp.o	e20771f5255c848
+1275	1388	1652235678673624104	project_exceptionHandling	9bc9ab958b56b101

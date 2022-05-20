@@ -1,0 +1,21 @@
+# ninja log v5
+0	1098	1653022387355333673	CMakeFiles/project_QueueViaStack.dir/main.cpp.o	e5640635b7fade2c
+2	1214	1653022387472870096	CMakeFiles/project_QueueViaStack.dir/QueueStack.cpp.o	dcddc34d695983b8
+1214	1284	1653022387545727234	project_QueueViaStack	cd67d368cc8a8878
+5	963	1653022684044489006	CMakeFiles/project_QueueViaStack.dir/main.cpp.o	e5640635b7fade2c
+963	1036	1653022684120930172	project_QueueViaStack	cd67d368cc8a8878
+5	1108	1653022722758589421	CMakeFiles/project_QueueViaStack.dir/main.cpp.o	e5640635b7fade2c
+1108	1182	1653022722835524261	project_QueueViaStack	cd67d368cc8a8878
+5	1095	1653023122441156877	CMakeFiles/project_QueueViaStack.dir/main.cpp.o	e5640635b7fade2c
+5	1220	1653023122573713520	CMakeFiles/project_QueueViaStack.dir/QueueStack.cpp.o	dcddc34d695983b8
+1220	1327	1653023122686041091	project_QueueViaStack	cd67d368cc8a8878
+6	1028	1653023163783180608	CMakeFiles/project_QueueViaStack.dir/main.cpp.o	e5640635b7fade2c
+1028	1110	1653023163869657540	project_QueueViaStack	cd67d368cc8a8878
+5	1681	1653023312691075269	CMakeFiles/project_QueueViaStack.dir/main.cpp.o	e5640635b7fade2c
+6	1797	1653023312809483272	CMakeFiles/project_QueueViaStack.dir/QueueStack.cpp.o	dcddc34d695983b8
+1797	1868	1653023312883540367	project_QueueViaStack	cd67d368cc8a8878
+6	1253	1653053527658173311	CMakeFiles/project_QueueViaStack.dir/main.cpp.o	e5640635b7fade2c
+7	1345	1653053527748714648	CMakeFiles/project_QueueViaStack.dir/QueueStack.cpp.o	dcddc34d695983b8
+1345	1446	1653053527856193362	project_QueueViaStack	cd67d368cc8a8878
+7	1888	1653055029112521070	CMakeFiles/project_QueueViaStack.dir/QueueStack.cpp.o	dcddc34d695983b8
+1888	1987	1653055029217242365	project_QueueViaStack	cd67d368cc8a8878
