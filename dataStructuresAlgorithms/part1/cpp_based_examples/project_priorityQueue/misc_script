@@ -1,0 +1,27 @@
+int targetIndex = 0;
+        int temp;
+        // check if current position is NULL : ie, starting from empty array
+        if (*currentPosition == NULL && ((currentPosition - &pqArray[0]) < pqSize)) {
+            // find position to insert
+            for (int i = 0; i < (pqSize - 1); i++) {
+                // --------> [1, 2, 4, 5, 0]
+                // insert 3: [1, 2,  , 4, 5]
+                // --------> [1, 2, 3, 4, 5]
+                if (value >= pqArray[i] && value <= pqArray[i + 1]) {
+                    targetIndex = i;
+                    break;
+                }
+            }
+            std::cout << "Target Index: " << targetIndex << std::endl;
+            // then shift/swap rear items to open space
+            // [3, 4, 0] - pqSize = 3.
+            // [ , 3, 4]
+            for (int i = (pqSize - 2); i >= targetIndex; i--) {
+                pqArray[i + 1] = pqArray[i];
+            }
+            *currentPosition = value;
+            currentPosition++;
+        }
+        else { // meaning out of bounds
+            std::cout << "Its out of bounds!" << std::endl;
+        }

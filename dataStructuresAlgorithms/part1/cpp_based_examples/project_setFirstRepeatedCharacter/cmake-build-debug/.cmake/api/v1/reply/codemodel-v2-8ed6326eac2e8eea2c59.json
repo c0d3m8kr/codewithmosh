@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "project_setFirstRepeatedCharacter",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "project_setFirstRepeatedCharacter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-project_setFirstRepeatedCharacter-Debug-027194a26f604b6365bb.json",
+					"name" : "project_setFirstRepeatedCharacter",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/rw/Documents/development/codewithmosh/dataStructuresAlgorithms/part1/cpp_based_examples/project_setFirstRepeatedCharacter/cmake-build-debug",
+		"source" : "/Users/rw/Documents/development/codewithmosh/dataStructuresAlgorithms/part1/cpp_based_examples/project_setFirstRepeatedCharacter"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
